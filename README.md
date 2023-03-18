@@ -21,7 +21,7 @@ A principio o código será utilizado como meio de estudo para aprimoramento do 
 
 ## Autor do projeto:
 
-### Gustavo Guilherme Deschamps
+[<img src="https://avatars.githubusercontent.com/u/127525441?s=400&u=a2dd9be461736d5dc7622ea542162dfc99d3cf08&v=4" width=115><br><sub>Gustavo Guilherme Deschamps</sub>](https://github.com/GuDeschamps)
 
 ## Redes sociais:
 <div style="display: inline_block"><br>
