@@ -12,6 +12,12 @@
     --fonte-secundaria: 'Montserrat', sans-serif;
 
     --tamanho-fonte-secundaria: 1.5rem; /*24px*/
+
+    --cinza: #aaa;
+    --azul: #22D4FD;
+    --azul-escura: #2288fd;
+    --branca: #fff;
+    --luz: rgb(229, 255, 0);
 }
 
 * {
@@ -148,8 +154,65 @@ body {
         justify-content: auto;
         gap: 2%;
     }
+    .cabecalho__menu__link {
+        font-size: 36px;
+        justify-content: center;
+        width: auto;
+    }
     .apresentacao {
         flex-direction: column-reverse;
         gap: 30px;
     }
 }
+/*
+CSS do Alura midi em edição
+*/
+
+  .teclado {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+    box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+    border-radius: 10px;
+    display: grid;
+    gap: 2%;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5%;
+  }
+  
+  .tecla {
+    background-color: var(--branca);
+    border-radius: 30px;
+    box-shadow: 3px 3px 0 var(--cinza);
+    color: var(--azul);
+    cursor: pointer;
+    height: 120px;
+    font-size: 1.75em;
+    font-weight: bold;
+    line-height: 120px;
+    text-align: center;
+    width: 120px;
+  }
+  
+  .tecla.ativa,
+  .tecla:active {
+    background-color: var(--azul);
+    border: 4px solid  var(--azul);
+    box-shadow: 3px 3px 0 var(--azul-escura) inset;
+    color: var(--branca);
+    outline: none;
+  }
+  
+  .tecla.focus,
+  .tecla:focus {
+    outline: none;
+    box-shadow: 1px 1px 10px var(--luz);
+  }
+  
+  .tecla.active:focus,
+  .tecla:active:focus {
+    box-shadow: 3px 3px 0 var(--azul-escura) inset, 1px 1px 10px var(--luz);
+  }
+  
