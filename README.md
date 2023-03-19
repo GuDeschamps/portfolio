@@ -4,7 +4,7 @@ Desenvolvendo meu portfolio com os cursos alura. <br>
 
 ## Funcionalidades
 
-Será atualizado conforme novas tecnologias forem estudadas.
+Servirá como material para estudo e atualização das tecnologias conforme forem estudadas, podendo ser utilizado da mesma maneira por todos.
 
 ## Ferramentas utilizadas:
 <div style="display: inline_block"><br>
